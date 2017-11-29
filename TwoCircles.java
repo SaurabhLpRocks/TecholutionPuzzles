@@ -3,7 +3,7 @@ package com.techolution;
 import java.util.HashMap;
 import java.util.Map;
 
-public class TwoCircle {
+public class TwoCircles {
 	private static Map<Integer, String> state = new HashMap<Integer, String>();
 	static {
 		state.put(1, "Touching");
