@@ -23,13 +23,14 @@ public class TwoCircles {
 						  "107 0 5 30 0 11", 
 					      "41 0 0 28 0 13", 
 					     };
-		String[] res = circles(info, info.length);
+		String[] res = circles(info);
 		for (String val : res) {
 			System.out.println(val);
 		}
 	}
 
-	public static String[] circles(String[] info, int n) {
+	public static String[] circles(String[] info) {
+		int n=info.length;
 		String[] res = new String[n];
 		int i = 0;
 		for (String s : info) {
