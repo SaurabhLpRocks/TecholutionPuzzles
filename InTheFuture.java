@@ -28,7 +28,7 @@ public class InTheFuture {
 		int noofDays = 1;
 
 		if (asha < kelly) {
-			return 1;
+			return -1;
 		} else if (asha == kelly) {
 			return 2;
 		} else {
